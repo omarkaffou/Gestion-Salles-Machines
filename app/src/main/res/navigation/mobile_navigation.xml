@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:label="@string/menu_home"
+        tools:layout="@layout/activity_liste_machines_salles" />
+
+    <fragment
+        android:id="@+id/nav_salle"
+        android:label="@string/menu_salle"
+        tools:layout="@layout/activity_main_salle" />
+
+    <fragment
+        android:id="@+id/nav_machine"
+        android:label="@string/menu_machine"
+        tools:layout="@layout/activity_main_machine" />
+    <fragment
+        android:id="@+id/nav_list_salle"
+        android:label="@string/menu_list_salle"
+        tools:layout="@layout/activity_list_salle" />
+    <fragment
+        android:id="@+id/nav_list_machine"
+        android:label="@string/menu_list_machine"
+        tools:layout="@layout/activity_liste_machines" />
+    <fragment
+        android:id="@+id/nav_list_machines_par_salle"
+        android:label="@string/menu_list_machine"
+        tools:layout="@layout/activity_machi_salle" />
+</navigation>

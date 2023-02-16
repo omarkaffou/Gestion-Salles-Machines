@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Salle Machine</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_salle">Salle</string>
+    <string name="menu_machine">Machine</string>
+    <string name="menu_list_salle">Liste Salles</string>
+    <string name="menu_list_machine">Liste Machines</string>
+    <string name="menu_list_machines_par_salle">Liste Machines Par Salle</string>
+</resources>
